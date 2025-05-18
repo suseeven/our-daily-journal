@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AuthProvider } from "./components/AuthContext.jsx";
-import Dashboard from "./pages/Dashboard";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Tracker from "./pages/Tracker";
-import GratitudeLog from "./pages/GratitudeLog";
+import Dashboard from "./pages/Dashboard.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
+import Tracker from "./pages/Tracker.jsx";
+import GratitudeLog from "./pages/GratitudeLog.jsx";
 import "./App.css";
 
 export default function App() {
